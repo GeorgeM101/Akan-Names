@@ -8,19 +8,22 @@
 </head>
 <body><div class="container">
     <div class="description">
-        <h1 class="title">Akan Names</h1>
+        <h1 class="title">akan names</h1>
         <p>Derived from the Ghanian Culture, Akan names are names given to children which corresponds to the day of the week that they were born and order in which they were born.
             <a href="https://en.wikipedia.org/wiki/Akan_names">Read more</a>
             <br>
             <br>
-            <p>This website works in a way that after you input you date of birth and gender, it generates results and returns to you your Ghanian name, which ofcourse depends on the specific day of the week you were born in. </p>
+            <p>This website generates your "Akan" name after you input your date of birth, followed by your gender which of course depends on the specific day you were born in. Your result will display after clicking the submit button. </p>
+
         </p>
     </div>
     <div class="inputs">
+        <h3>Give it a try</h3>
         <form action="#">
          Enter Date of Birth :<input type="date" name="date" id="dates">
             <br>
            Select your gender : <select name="Gender" id="Gender">
+               <option value="Select">-Select-</option>
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
             </select>
@@ -28,6 +31,7 @@
             <input type="submit" id="submit" value="submit" onclick=" return formInput()">
         </form>
     </div>
+    <div id="display"></div>
    
   <script src="index.js">
 
