@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Red+Hat+Mono:wght@300&display=swap');
 *{
     padding:0;
     /* margin:0; */
+    font-family: 'Red Hat Mono', monospace;
 }
 .container{
     background-color:black;
@@ -54,5 +56,19 @@ body::after{
 #Gender{
     width:100px;
     height:30px;
-    margin:20px;
+    margin:10px;
+    font-size:1.0em;
+    font-weight: bold;
+}
+#submit{
+    width:100px;
+    margin:10px;
+    font-size:15px;
+    color:purple;
+    background-color:black;
+}
+#submit:hover{
+    color:rgb(142, 163, 142);
+    cursor:pointer;
+    
 }
