@@ -44,3 +44,15 @@ body::after{
     margin:auto;
     display:block;
 }
+#dates{
+    height:2.5em;
+    width:200px;
+    text-align:center;
+    font-weight:bold;
+    margin:20px;
+}
+#Gender{
+    width:100px;
+    height:30px;
+    margin:20px;
+}
