@@ -24,7 +24,11 @@ function formInput() {
         var indexes = Math.floor(calcDates); 
          alert(maleNames[indexes]+" "+ daysOfWeek[indexes]);
             return false
-        
+        }else {
+            var calcDates= ( ( (century/4) -2*century-1) + ((5*years/4) ) + ((26*(months+1)/10)) + days ) %7;
+        var indexes = Math.floor(calcDates); 
+         alert(femaleNames[indexes]+" "+ daysOfWeek[indexes]);
+            return false
         }
         alert(years);
         return false;
