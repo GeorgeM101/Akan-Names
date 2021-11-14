@@ -39,3 +39,8 @@ body::after{
 .description{
     padding:20px;
 }
+
+.inputs{
+    margin:auto;
+    display:block;
+}
