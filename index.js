@@ -2,7 +2,7 @@ var dates = document.getElementById("dates");
 var gender = document.getElementById("Gender");
 
 function formInput() {
-    if (dates.value === "" || Gender.value === ""){
+    if (dates.value === "" || Gender.value === "Select" ){
     alert("Input all fields");
     return false;
     }else {
@@ -22,12 +22,12 @@ function formInput() {
         if(gender.value == "Male"){
         var calcDates= ( ( (century/4) -2*century-1) + ((5*years/4) ) + ((26*(months+1)/10)) + days ) %7;
         var indexes = Math.floor(calcDates); 
-         alert(maleNames[indexes]+" "+ daysOfWeek[indexes]);
+         alert("Your Akan name is " + maleNames[indexes] + " " + "you were born on " + daysOfWeek[indexes]);
             return false
         }else {
         var calcDates= ( ( (century/4) -2*century-1) + ((5*years/4) ) + ((26*(months+1)/10)) + days ) %7;
         var indexes = Math.floor(calcDates); 
-         alert(femaleNames[indexes]+" "+ daysOfWeek[indexes]);
+         alert("Your Akan name is " + femaleNames[indexes] + " "+ "you were born on " + daysOfWeek[indexes]);
             return false
         }
         alert(years);
