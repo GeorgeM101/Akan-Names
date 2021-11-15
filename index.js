@@ -30,9 +30,20 @@ function formInput() {
          alert("Your Akan name is " + femaleNames[indexes] + " "+ "you were born on " + daysOfWeek[indexes]);
             return false
         }
-        alert(years);
-        return false;
+        // alert(years);
+        // return false;
+  
+        
     }   
-    
+ 
+       
 }
+// function display(){
+//     var checkResults=document.getElementById("results").innerHTML;
+// document.getElementById("display").innerHTML=checkResults;
+// }
+
+  
+ 
+
 
