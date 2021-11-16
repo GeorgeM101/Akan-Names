@@ -9,9 +9,10 @@ The website displays your Akan name which is derived from the Ghanian culture. U
 ___NAME___ : George Mboya
 #
 ### SETUP INSTRUCTIONS
-#
 Project was implemented using HTML styled with CSS and JavaScript for interractivity.
+#
 ## BDD
+No collaborators 
 #
 ### TECHNOLOGIES USED
 HTML CSS JavaScript
