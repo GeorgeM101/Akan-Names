@@ -23,7 +23,7 @@ function formInput() {
         var calcDates= ( ( (century/4) -2*century-1) + ((5*years/4) ) + ((26*(months+1)/10)) + days ) %7;
         var indexes = Math.floor(calcDates); 
          alert("Your Akan name is " + maleNames[indexes] + " " + "you were born on " + daysOfWeek[indexes]).i;
-            return false
+            // return false
         }else {
         var calcDates= ( ( (century/4) -2*century-1) + ((5*years/4) ) + ((26*(months+1)/10)) + days ) %7;
         var indexes = Math.floor(calcDates); 

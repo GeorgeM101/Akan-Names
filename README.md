@@ -10,7 +10,7 @@ ___NAME___ : George Mboya
 #
 ### SETUP INSTRUCTIONS
 #
-
+Project was implemented using HTML styled with CSS and JavaScript for interractivity.
 ## BDD
 #
 ### TECHNOLOGIES USED
