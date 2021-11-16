@@ -9,6 +9,9 @@ The website displays your Akan name whose origin is from the Ghanian culture. Us
 
 ### AUTHOR'S DETAILS
 ___NAME___ : George Mboya
+<br>
+Junior Developer
+
 #
 
 ### SETUP INSTRUCTIONS
